@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>advanced HTML elements and forms</title>
+     </head>
+     <h2>This is a list of Programming Languages</h2>
+     <ol type="i">
+        <li>Python</li>
+        <li>Java</li>
+        <li>Javascript</li>
+        <li>Golang</li>
+     </ol>
+     <img src="https://images.pexels.com/photos/753994/pexels-photo-753994.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="This is an image of a person walking in a forest in a dark background" width="500" height="300">
+     <table border ="1">
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile Number</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>Morris</td>
+            <td>Kiambu</td>
+            <td>0712345678</td>
+            <td>address@example.com</td>
+        </tr>
+        <tr>
+            <td>Joseph</td>
+            <td>Nairobi</td>
+            <td>0123445689</td>
+            <td>email@hotmail.com</td>
+        </tr>
+        <tr>
+            <td>Yusuf</td>
+            <td>Nyeri</td>
+            <td>0712345678</td>
+            <td>yusuf@hotmail.com</td>
+        </tr>
+        <tr>
+            <td>Husna</td>
+            <td>New York</td>
+            <td>0198745465</td>
+            <td>husna@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Emmanuel</td>
+            <td>California</td>
+            <td>0712345678</td>
+            <td>emmanuel@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Abdulahi</td>
+            <td>Dubai</td>
+            <td>072838392028</td>
+            <td>adbulahi@gmail.com</td>
+        </tr>
+     </table><br><br>
+     <form action="">
+        <label for ="name"> Name:</label><br>
+        <input type="text" id ="name" name="name" placeholder="Enter Your Name" required><br>
+        <label for ="email" > Email:</label><br>
+        <input type="email" id ="email" name ="email" placeholder="Enter Your Email Address" required><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" placeholder="Enter Your Password" required><br>
+        <label for="date">Date:</label><br>
+        <input type="date" id="date" name="date" required><br><br>
+        
+        Choose a Language:<br>
+        <input type ="checkbox" id="python" name="python" value ="Python">
+        <label for="python">Python</label><br>
+        <input type="checkbox" id="java" name="java" value="Java">
+        <label for="java">Java</label><br>
+        <input type="checkbox" id="javascript" name="javascript" value="Javascript">
+        <label for="javascript">Javascript</label><br>
+        <input type="checkbox" id="golang" name="golang" value="Golang">
+        <label for="golang">Golang</label><br><br>
+       
+        Gender: 
+        <label for="male ">Male</label>
+        <input type="radio" id="male" name="gender" value="male" >
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="felame" value="female"><br><br>
+
+        <label for ="programming_languages">Choose Your Language:</label><br>
+        <select name="programming_languages" id="programming_languages">
+            <option value="python">Python</option>
+            <option value="java">Java</option>
+            <option value="javascript">Javascript</option>
+            <option value="golang">Golang</option>
+        </select>
+        <br><br>
+
+        <input type="submit" value="Submit"><br>
+
+
+         </form>
+</html>
